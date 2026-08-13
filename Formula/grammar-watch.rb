@@ -1,25 +1,25 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.0/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "d5575325f9a948c27fb25219e2eb3c09e4921f0c8eea1cc00a57f53db5263b2a"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "cb18719dd65c0ed1502e22d3020468b4db1153cfb208b7e19239d296657fc966"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.0/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "0e4de29645958795ca5df03a82c9023bb7b47845c532e58cc1252ed92732dfa2"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "64137ca4ff6f40847625b35dcda5e3fb824ce3accf1735d9ca796823f84ed9d5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c727268d7575fed1931c832f064386e1492b760441262956c049de8ba11cbc54"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6a9d2ab8521310a1c0362a2f94dd86e2edfdf1c3a387d2a1445a304eddbafcc9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0680a9d72a153f4a322ef673a97d127a12fa0f6e5d314829f55d66c45f48354d"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7fcd12c776b43829bdad1ce677ba595324ff257dca76e18e6bf4f598497f22bc"
     end
   end
 
