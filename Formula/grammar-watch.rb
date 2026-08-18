@@ -1,25 +1,25 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "cb18719dd65c0ed1502e22d3020468b4db1153cfb208b7e19239d296657fc966"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "071cbacb5f7e33bf1c00f61731b9d97453cd5fc16fd8a782e8d8f729c9ca3b57"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "64137ca4ff6f40847625b35dcda5e3fb824ce3accf1735d9ca796823f84ed9d5"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "7ce72b023bc724a41b7fcd4d9f54f217b007514b99965f55a7dc881527ae5be5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6a9d2ab8521310a1c0362a2f94dd86e2edfdf1c3a387d2a1445a304eddbafcc9"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1a6130d1c3e9af9d430ab14f9d3dc5f9689179d204d7baa28a8691ae0f1f4dcd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.1.1/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7fcd12c776b43829bdad1ce677ba595324ff257dca76e18e6bf4f598497f22bc"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "cef49170cfd8df0d6bfbae2e24f48d6d8d092b2ba6409daf84daf0e0d6c7fd98"
     end
   end
 
