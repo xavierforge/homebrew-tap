@@ -1,25 +1,25 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "24866cc877f95de2a62a2d67bd68053e58db4c264ac2bd11345b0758969f50b7"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "0b20a8e282a12259d2ffc2f7a2635035f1f472cae8e0ba8ddbe9477e7b6b9fab"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "c6e9166aa500f1fe74127ef40633ef9dc7bc4bee07fa8fb8ff4a6885de2bd7c9"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "85a4a7ed470e9d3ef04eb36ce2e93c9626a6584fdf35cc9709e154b263b9883d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "59e1ac3f78576bd344afde8f42f3016ed18432380492433101f88bc5f5530e58"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4aa960e6f7c44f165c39a359ecb7168fff40cab92d4f4f53b08503aa36d6ac15"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a37752c43be003f0fe55c510559e93f8c2ca5f34d2e7e6a8e5393705b14d1605"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "953d0f847f925b32ef1043bf35fbb86d32a8bb35d5923494cf43edef9008a9ad"
     end
   end
 
