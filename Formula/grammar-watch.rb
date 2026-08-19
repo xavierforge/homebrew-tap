@@ -1,25 +1,25 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.3.2"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "0b20a8e282a12259d2ffc2f7a2635035f1f472cae8e0ba8ddbe9477e7b6b9fab"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "ee9eda1250c7d6acdedc5e1909300e969504a9a0a8134d0f5a5b16de788eb68b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "85a4a7ed470e9d3ef04eb36ce2e93c9626a6584fdf35cc9709e154b263b9883d"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "84cc7ff908deb56a767ea0dfc3006e27d4d8c9928c256ddce684b743dcebe2ea"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4aa960e6f7c44f165c39a359ecb7168fff40cab92d4f4f53b08503aa36d6ac15"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f4f1317953170c7eb752e7e812218c06679d8eeb767b446cd62d3015707a39d5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.2/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "953d0f847f925b32ef1043bf35fbb86d32a8bb35d5923494cf43edef9008a9ad"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c039d88c0d64324c2d8bbb77f262d72ace1f7a2fd5b69ba7bcc7e852b1c81ebf"
     end
   end
 
