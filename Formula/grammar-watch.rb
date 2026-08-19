@@ -1,25 +1,25 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "162076abd1cb663257a6fda6114026ff934c3141bece5482e3f3d45642a7e1ef"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "24866cc877f95de2a62a2d67bd68053e58db4c264ac2bd11345b0758969f50b7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "2842419abe4f8399eeb91772349db11920c5106c84869c03055e45b0e48a177b"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "c6e9166aa500f1fe74127ef40633ef9dc7bc4bee07fa8fb8ff4a6885de2bd7c9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ff261a3ee2fdecba1479ec799f3e04210399c55558fc8ef6cb4ec8a802704f8a"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "59e1ac3f78576bd344afde8f42f3016ed18432380492433101f88bc5f5530e58"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dee7789c2f595780c5dedd922bbf42a2e3a39c5bd2337dd06318c53d3bd28e89"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.1/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a37752c43be003f0fe55c510559e93f8c2ca5f34d2e7e6a8e5393705b14d1605"
     end
   end
 
