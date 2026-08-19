@@ -1,25 +1,25 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "071cbacb5f7e33bf1c00f61731b9d97453cd5fc16fd8a782e8d8f729c9ca3b57"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "162076abd1cb663257a6fda6114026ff934c3141bece5482e3f3d45642a7e1ef"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "7ce72b023bc724a41b7fcd4d9f54f217b007514b99965f55a7dc881527ae5be5"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "2842419abe4f8399eeb91772349db11920c5106c84869c03055e45b0e48a177b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1a6130d1c3e9af9d430ab14f9d3dc5f9689179d204d7baa28a8691ae0f1f4dcd"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ff261a3ee2fdecba1479ec799f3e04210399c55558fc8ef6cb4ec8a802704f8a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.2.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cef49170cfd8df0d6bfbae2e24f48d6d8d092b2ba6409daf84daf0e0d6c7fd98"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.3.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "dee7789c2f595780c5dedd922bbf42a2e3a39c5bd2337dd06318c53d3bd28e89"
     end
   end
 
