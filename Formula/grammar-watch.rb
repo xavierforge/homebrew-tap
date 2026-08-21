@@ -1,25 +1,25 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.5.0"
+  version "0.5.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "aca81cfaf938c6940fcc70341ffa07dad9dca4ce81c9dc00a0e2f3bd81fe1d37"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.1/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "edb373f8b9e5a39439c3642b503af9196b1f5f65cd9aae08b0060a15cded0121"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "b5d430412859951d9bd6603ffcbc7f6cfb10773ac5d367e40520d3fd6db04b78"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.1/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "3205c253f87ede1dc34ac834c328596ea3b49fd3b6793a0748bfb72d49e1bd74"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "09e40d18a9d1477d1e8faca676c9497f4fd7e49356a8970172da38bc0b6e8376"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.1/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c95a3c975981bfa4784c2b9fbd841046ecfa1a62a1e263f54455d38d24849907"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a4732df4a22214a285333df81eee6a09cf983d2757cdec10f7df6e675cd61276"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.1/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "26792c982198aec77f264efb1667626884832babb9cea46177e54820e79fd530"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
