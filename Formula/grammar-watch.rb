@@ -1,27 +1,28 @@
 class GrammarWatch < Formula
   desc "Watches a Claude Code session and reviews your English prompts in real time"
   homepage "https://github.com/xavierforge/grammar-watch"
-  version "0.4.0"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-aarch64-apple-darwin.tar.xz"
-      sha256 "ee9eda1250c7d6acdedc5e1909300e969504a9a0a8134d0f5a5b16de788eb68b"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-aarch64-apple-darwin.tar.xz"
+      sha256 "aca81cfaf938c6940fcc70341ffa07dad9dca4ce81c9dc00a0e2f3bd81fe1d37"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-x86_64-apple-darwin.tar.xz"
-      sha256 "84cc7ff908deb56a767ea0dfc3006e27d4d8c9928c256ddce684b743dcebe2ea"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-x86_64-apple-darwin.tar.xz"
+      sha256 "b5d430412859951d9bd6603ffcbc7f6cfb10773ac5d367e40520d3fd6db04b78"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f4f1317953170c7eb752e7e812218c06679d8eeb767b446cd62d3015707a39d5"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "09e40d18a9d1477d1e8faca676c9497f4fd7e49356a8970172da38bc0b6e8376"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.4.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c039d88c0d64324c2d8bbb77f262d72ace1f7a2fd5b69ba7bcc7e852b1c81ebf"
+      url "https://github.com/xavierforge/grammar-watch/releases/download/v0.5.0/grammar-watch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a4732df4a22214a285333df81eee6a09cf983d2757cdec10f7df6e675cd61276"
     end
   end
+  license any_of: ["MIT", "Apache-2.0"]
 
   BINARY_ALIASES = {
     "aarch64-apple-darwin":      {},
